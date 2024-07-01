@@ -1,0 +1,54 @@
+df-messenger {
+    --df-messenger-bot-message: #001954ff;
+    --df-messenger-button-titlebar-color: #001954ff;
+    --df-messenger-chat-background-color: #f7f7f7;
+    --df-messenger-font-color: #ffffff;
+    --df-messenger-send-icon: #001954ff;
+    --df-messenger-user-message: rgb(122, 155, 230);
+    /* Color de fondo del mensaje del usuario */
+    --df-messenger-user-message-font-color: #000000;
+    /* Color de la fuente del mensaje del usuario */
+    --df-messenger-bot-message-font-color: #fff;
+    /* Color de la fuente del mensaje del bot */
+    position: fixed;
+    /* bottom: 20px;
+    right: 20px;
+    height: 430px;
+    width: 350px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+
+
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.boton-iniciar {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+.boton-iniciar:hover {
+    background-color: #218838;
+}
